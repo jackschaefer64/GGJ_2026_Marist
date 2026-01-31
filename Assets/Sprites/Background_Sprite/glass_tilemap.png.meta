@@ -1,0 +1,976 @@
+fileFormatVersion: 2
+guid: 6dc9ce803cb38604b9a39b9e4e8309c0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 528150565176778665
+    second: glass_tilemap_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: glass_tilemap_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af9849042e545700800000000000000
+      internalID: 528150565176778665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glass_tilemap_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d701594f62b7749b8bcb97cd27b849
+      internalID: 132721692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glass_tilemap_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e16ffa7b2636e469da40a7102c5cc0
+      internalID: 1355871440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glass_tilemap_3
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5d4b0d49e034644910a7af6c3dc30e
+      internalID: 194100090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glass_tilemap_4
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdfd51eded5201d4eae81c7fc56b9ac0
+      internalID: 1897437703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glass_tilemap_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7addf32d8ed568449cf00c3ee1cc5e4
+      internalID: -718724188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glass_tilemap_6
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9132f7efaf9c745a8d00a80faffd0b
+      internalID: 1875330951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glass_tilemap_7
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f8d123d16f4fa4f8ace1f9242b901e
+      internalID: 985669907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glass_tilemap_8
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f037c3263176f034683d12977ac797d5
+      internalID: 1994874425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glass_tilemap_9
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ad92955cd1edc48a1aa1212cdb72e3
+      internalID: -1898129042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glass_tilemap_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580fb32e6a3d65c4396513b29ea96216
+      internalID: 765932385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glass_tilemap_11
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e8f48d5e72b2146973cc8dab58eada
+      internalID: 1030355064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glass_tilemap_12
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e28fdc50ccde44a9fab35e5028e082
+      internalID: 811515637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glass_tilemap_13
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe7a6efb1e765848b0dbfeec69fe3cc
+      internalID: 318919935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glass_tilemap_14
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4d40b13d79b284ab1e22a45ef20104
+      internalID: -2057534702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glass_tilemap_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1a615961163724494c21d0a39f4c09
+      internalID: 57792794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glass_tilemap_16
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3023bf7947524ed4ab344b01eec2897e
+      internalID: 865675079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glass_tilemap_17
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bccd035e5bf31d14d85a6207b7600089
+      internalID: 253224264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glass_tilemap_18
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9309b942e62082e469401715f254b2e9
+      internalID: 340524394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glass_tilemap_19
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ebe10778f83a4449b9a9b5344f2df5b
+      internalID: 563315203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glass_tilemap_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5041760da77f8ee49bfbad0795fca95b
+      internalID: 584341975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glass_tilemap_21
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -76, y: -79}
+        - {x: -74, y: -77}
+        - {x: -74, y: -56}
+        - {x: -76, y: -54}
+        - {x: -76, y: -16}
+        - {x: -73, y: -13}
+        - {x: -73, y: 5}
+        - {x: -74, y: 8}
+        - {x: -76, y: 10}
+        - {x: -76, y: 42}
+        - {x: -73, y: 46}
+        - {x: -73, y: 65}
+        - {x: -76, y: 69}
+        - {x: -76, y: 100}
+        - {x: -100, y: 100}
+        - {x: -100, y: -100}
+        - {x: -76, y: -100}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 01aad1ee51b13844daa6cf4d8cc8dcce
+      internalID: 1662903540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glass_tilemap_22
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 100, y: 100}
+        - {x: 76, y: 100}
+        - {x: 76, y: 79}
+        - {x: 74, y: 77}
+        - {x: 74, y: 56}
+        - {x: 76, y: 54}
+        - {x: 76, y: 16}
+        - {x: 73, y: 13}
+        - {x: 73, y: -5}
+        - {x: 74, y: -8}
+        - {x: 76, y: -10}
+        - {x: 76, y: -42}
+        - {x: 73, y: -46}
+        - {x: 73, y: -65}
+        - {x: 76, y: -69}
+        - {x: 76, y: -100}
+        - {x: 100, y: -100}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 97325a539b59d0c499338928322cf159
+      internalID: -306520366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glass_tilemap_23
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 100, y: -76}
+        - {x: 79, y: -76}
+        - {x: 77, y: -74}
+        - {x: 56, y: -74}
+        - {x: 54, y: -76}
+        - {x: 16, y: -76}
+        - {x: 13, y: -73}
+        - {x: -5, y: -73}
+        - {x: -8, y: -74}
+        - {x: -10, y: -76}
+        - {x: -42, y: -76}
+        - {x: -46, y: -73}
+        - {x: -65, y: -73}
+        - {x: -69, y: -76}
+        - {x: -100, y: -76}
+        - {x: -100, y: -100}
+        - {x: 100, y: -100}
+      tessellationDetail: 1
+      bones: []
+      spriteID: fd3d2aeed0be68d47b5bb79b4e22914d
+      internalID: -358183591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glass_tilemap_24
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 8, y: 74}
+        - {x: 10, y: 76}
+        - {x: 42, y: 76}
+        - {x: 46, y: 73}
+        - {x: 65, y: 73}
+        - {x: 69, y: 76}
+        - {x: 100, y: 76}
+        - {x: 100, y: 100}
+        - {x: -100, y: 100}
+        - {x: -100, y: 76}
+        - {x: -79, y: 76}
+        - {x: -77, y: 74}
+        - {x: -56, y: 74}
+        - {x: -54, y: 76}
+        - {x: -16, y: 76}
+        - {x: -13, y: 73}
+        - {x: 5, y: 73}
+      tessellationDetail: 1
+      bones: []
+      spriteID: c072d52871eacb44a8fe99febd4b3279
+      internalID: -406491110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glass_tilemap_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 100, y: -72}
+        - {x: 71, y: -72}
+        - {x: 69, y: -70}
+        - {x: 47, y: -70}
+        - {x: 45, y: -72}
+        - {x: 8, y: -72}
+        - {x: 6, y: -70}
+        - {x: -13, y: -70}
+        - {x: -15, y: -72}
+        - {x: -56, y: -72}
+        - {x: -58, y: -70}
+        - {x: -74, y: -70}
+        - {x: -74, y: -56}
+        - {x: -76, y: -54}
+        - {x: -76, y: -16}
+        - {x: -73, y: -13}
+        - {x: -73, y: 5}
+        - {x: -74, y: 8}
+        - {x: -76, y: 10}
+        - {x: -76, y: 42}
+        - {x: -73, y: 46}
+        - {x: -73, y: 65}
+        - {x: -76, y: 69}
+        - {x: -76, y: 100}
+        - {x: -100, y: 100}
+        - {x: -100, y: -100}
+        - {x: 100, y: -100}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 9498be37df65380489ece87e92470974
+      internalID: -1299927847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glass_tilemap_26
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 100, y: 100}
+        - {x: 72, y: 100}
+        - {x: 72, y: 71}
+        - {x: 70, y: 69}
+        - {x: 70, y: 47}
+        - {x: 72, y: 45}
+        - {x: 72, y: 8}
+        - {x: 70, y: 6}
+        - {x: 70, y: -13}
+        - {x: 72, y: -15}
+        - {x: 72, y: -56}
+        - {x: 70, y: -58}
+        - {x: 70, y: -74}
+        - {x: 56, y: -74}
+        - {x: 54, y: -76}
+        - {x: 16, y: -76}
+        - {x: 13, y: -73}
+        - {x: -5, y: -73}
+        - {x: -8, y: -74}
+        - {x: -10, y: -76}
+        - {x: -42, y: -76}
+        - {x: -46, y: -73}
+        - {x: -65, y: -73}
+        - {x: -69, y: -76}
+        - {x: -100, y: -76}
+        - {x: -100, y: -100}
+        - {x: 100, y: -100}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 08c33ffe79f2f6e42a0bcd94b3384d4d
+      internalID: -1473254706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glass_tilemap_27
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 100, y: 100}
+        - {x: -100, y: 100}
+        - {x: -100, y: 72}
+        - {x: -71, y: 72}
+        - {x: -69, y: 70}
+        - {x: -47, y: 70}
+        - {x: -45, y: 72}
+        - {x: -8, y: 72}
+        - {x: -6, y: 70}
+        - {x: 13, y: 70}
+        - {x: 15, y: 72}
+        - {x: 56, y: 72}
+        - {x: 58, y: 70}
+        - {x: 74, y: 70}
+        - {x: 74, y: 56}
+        - {x: 76, y: 54}
+        - {x: 76, y: 16}
+        - {x: 73, y: 13}
+        - {x: 73, y: -5}
+        - {x: 74, y: -8}
+        - {x: 76, y: -10}
+        - {x: 76, y: -42}
+        - {x: 73, y: -46}
+        - {x: 73, y: -65}
+        - {x: 76, y: -69}
+        - {x: 76, y: -100}
+        - {x: 100, y: -100}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 7fe597c30b287954c860c3884e4ef127
+      internalID: -1905606477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glass_tilemap_28
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -72, y: -71}
+        - {x: -70, y: -69}
+        - {x: -70, y: -47}
+        - {x: -72, y: -45}
+        - {x: -72, y: -8}
+        - {x: -70, y: -6}
+        - {x: -70, y: 13}
+        - {x: -72, y: 15}
+        - {x: -72, y: 56}
+        - {x: -70, y: 58}
+        - {x: -70, y: 74}
+        - {x: -56, y: 74}
+        - {x: -54, y: 76}
+        - {x: -16, y: 76}
+        - {x: -13, y: 73}
+        - {x: 5, y: 73}
+        - {x: 8, y: 74}
+        - {x: 10, y: 76}
+        - {x: 42, y: 76}
+        - {x: 46, y: 73}
+        - {x: 65, y: 73}
+        - {x: 69, y: 76}
+        - {x: 100, y: 76}
+        - {x: 100, y: 100}
+        - {x: -100, y: 100}
+        - {x: -100, y: -100}
+        - {x: -72, y: -100}
+      tessellationDetail: 1
+      bones: []
+      spriteID: ab4880ca2ac5e5149a9509e16f9f0589
+      internalID: 1228494483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8fdbea2186fd7424e8506cce413aa15e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      glass_tilemap_0: 528150565176778665
+      glass_tilemap_1: 132721692
+      glass_tilemap_10: 765932385
+      glass_tilemap_11: 1030355064
+      glass_tilemap_12: 811515637
+      glass_tilemap_13: 318919935
+      glass_tilemap_14: -2057534702
+      glass_tilemap_15: 57792794
+      glass_tilemap_16: 865675079
+      glass_tilemap_17: 253224264
+      glass_tilemap_18: 340524394
+      glass_tilemap_19: 563315203
+      glass_tilemap_2: 1355871440
+      glass_tilemap_20: 584341975
+      glass_tilemap_21: 1662903540
+      glass_tilemap_22: -306520366
+      glass_tilemap_23: -358183591
+      glass_tilemap_24: -406491110
+      glass_tilemap_25: -1299927847
+      glass_tilemap_26: -1473254706
+      glass_tilemap_27: -1905606477
+      glass_tilemap_28: 1228494483
+      glass_tilemap_3: 194100090
+      glass_tilemap_4: 1897437703
+      glass_tilemap_5: -718724188
+      glass_tilemap_6: 1875330951
+      glass_tilemap_7: 985669907
+      glass_tilemap_8: 1994874425
+      glass_tilemap_9: -1898129042
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
