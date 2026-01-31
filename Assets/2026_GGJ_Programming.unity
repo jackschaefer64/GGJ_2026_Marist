@@ -594,7 +594,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 25.1
+  orthographic size: 23
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -4334,6 +4334,37 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 355048670}
   m_SourcePrefab: {fileID: 100100000, guid: a01b1d1c3d604684ab39cd6789fd5c0f, type: 3}
+--- !u!1 &1902233611
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1902233612}
+  m_Layer: 0
+  m_Name: Test
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1902233612
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1902233611}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.7767208, y: -7.522833, z: 4.22362}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1981625731
 GameObject:
   m_ObjectHideFlags: 0
@@ -4691,11 +4722,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 246104845918860802, guid: a01b1d1c3d604684ab39cd6789fd5c0f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5
+      value: -0.7
       objectReference: {fileID: 0}
     - target: {fileID: 246104845918860802, guid: a01b1d1c3d604684ab39cd6789fd5c0f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 14.2
+      value: 15.2
       objectReference: {fileID: 0}
     - target: {fileID: 246104845918860802, guid: a01b1d1c3d604684ab39cd6789fd5c0f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4760,3 +4791,4 @@ SceneRoots:
   - {fileID: 1769835583}
   - {fileID: 1460835289}
   - {fileID: 1684893089}
+  - {fileID: 1902233612}
