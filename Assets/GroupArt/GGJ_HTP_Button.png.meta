@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: 77472add6df2cb94b85c828ff67bc087
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3311209182698188988
+    second: GGJ_HTP_Button_0
+  - first:
+      213: 616087458056267979
+    second: GGJ_HTP_Button_1
+  - first:
+      213: 5332583294806189181
+    second: GGJ_HTP_Button_2
+  - first:
+      213: -3783201373140347416
+    second: GGJ_HTP_Button_3
+  - first:
+      213: 3099385384519212860
+    second: GGJ_HTP_Button_4
+  - first:
+      213: -518770412936988004
+    second: GGJ_HTP_Button_5
+  - first:
+      213: -2747886195583496259
+    second: GGJ_HTP_Button_6
+  - first:
+      213: -5068272242452989542
+    second: GGJ_HTP_Button_7
+  - first:
+      213: 4340462305870859736
+    second: GGJ_HTP_Button_8
+  - first:
+      213: -2785589869131843230
+    second: GGJ_HTP_Button_9
+  - first:
+      213: 2263883121035357429
+    second: GGJ_HTP_Button_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GGJ_HTP_Button_0
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 750
+        width: 2115
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f4348bac83c02d0800000000000000
+      internalID: -3311209182698188988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_HTP_Button_1
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 789
+        width: 175
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc864086748cc8800800000000000000
+      internalID: 616087458056267979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_HTP_Button_2
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 789
+        width: 232
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d74ea1ed044210a40800000000000000
+      internalID: 5332583294806189181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_HTP_Button_3
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 875
+        width: 175
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e51338356e5f7bc0800000000000000
+      internalID: -3783201373140347416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_HTP_Button_4
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 789
+        width: 117
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f1e42069a330b20800000000000000
+      internalID: 3099385384519212860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_HTP_Button_5
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 789
+        width: 175
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a78e8de05fcc8f0800000000000000
+      internalID: -518770412936988004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_HTP_Button_6
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 875
+        width: 175
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbfcb05601c8dd9d0800000000000000
+      internalID: -2747886195583496259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_HTP_Button_7
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 760
+        width: 175
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a99fd939f31e9a9b0800000000000000
+      internalID: -5068272242452989542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_HTP_Button_8
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 789
+        width: 89
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ddc76e687b6c3c30800000000000000
+      internalID: 4340462305870859736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_HTP_Button_9
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 789
+        width: 175
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2693870d5c89759d0800000000000000
+      internalID: -2785589869131843230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_HTP_Button_10
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 760
+        width: 175
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fca05a34bdea6f10800000000000000
+      internalID: 2263883121035357429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d3efae3af7b9b174eabdbf1089804b57
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GGJ_HTP_Button_0: -3311209182698188988
+      GGJ_HTP_Button_1: 616087458056267979
+      GGJ_HTP_Button_10: 2263883121035357429
+      GGJ_HTP_Button_2: 5332583294806189181
+      GGJ_HTP_Button_3: -3783201373140347416
+      GGJ_HTP_Button_4: 3099385384519212860
+      GGJ_HTP_Button_5: -518770412936988004
+      GGJ_HTP_Button_6: -2747886195583496259
+      GGJ_HTP_Button_7: -5068272242452989542
+      GGJ_HTP_Button_8: 4340462305870859736
+      GGJ_HTP_Button_9: -2785589869131843230
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
