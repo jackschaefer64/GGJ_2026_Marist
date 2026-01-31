@@ -124,7 +124,16 @@ TextureImporter:
     indices: 
     edges: []
     weights: []
+<<<<<<< Updated upstream:Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg.meta
   spritePackingTag: 
+=======
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sign_0: 3334738622998220081
+  mipmapLimitGroupName: 
+>>>>>>> Stashed changes:Assets/Prefabs/Sign.png.meta
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
   userData: 
