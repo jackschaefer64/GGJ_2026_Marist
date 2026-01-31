@@ -3,14 +3,23 @@ using System.Linq.Expressions;
 using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using TMPro;
+using UnityEngine.UI;
+using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public float moveSpeed = 1f;
     public float collisionOffset = 0.05f;
-    public ContactFilter2D movementFilter;
-            
+    public ContactFilter2D movementFilter; 
+    public GameObject winTextObject;
+    public GameObject Player;
+    private int count;
+    public TextMeshProUGUI countText;
+    public Image Mask;
+
+
     Vector2 movementInput;
 
     Rigidbody2D rb;
@@ -21,10 +30,72 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>(); 
+        rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteRenderer = GetComponent<SpriteRenderer>(); count = 0;
+        SetCountText();
+        winTextObject.SetActive(false);
+
+
+        Color c = Mask.color;
+        c.a = 0f;
+        Mask.color = c;
+
+
     }
+
+
+    IEnumerator FadeInImage(Image img, float duration)
+    {
+        Color c = img.color;
+        c.a = 0f;
+        img.color = c;
+
+        float t = 0f;
+
+        while (t < duration)
+        {
+            t += Time.deltaTime;
+            float alpha = t / duration;
+            img.color = new Color(c.r, c.g, c.b, alpha);
+            yield return null;
+        }
+
+        //fade in colors of mask
+        img.color = new Color(c.r, c.g, c.b, 1f);
+    }
+
+
+
+    void SetCountText()
+    {
+        countText.text = "Mask Shards: " + count.ToString() + "/5";
+
+        if (count >= 5)
+        {
+            winTextObject.SetActive(true);
+
+            // Shows the end mask
+            Color c = Mask.color;
+            c.a = 1f;               //makes image fully visible
+            Mask.color = c;
+         
+           StartCoroutine(FadeInImage(Mask, 1.5f)); // 1.5 seconds Fade in mask
+           
+
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("PickUp"))
+        {
+            count++;
+            SetCountText();
+            other.gameObject.SetActive(false);
+        }
+    }
+
 
     private void FixedUpdate()
     {
