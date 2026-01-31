@@ -1,0 +1,364 @@
+fileFormatVersion: 2
+guid: 3a6a9784720e0564e914dee80e56f0bd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1383464326535998023
+    second: GGJ_Intro_Name_Sprite_0
+  - first:
+      213: 4131366283915221497
+    second: GGJ_Intro_Name_Sprite_1
+  - first:
+      213: 8185750153624604959
+    second: GGJ_Intro_Name_Sprite_2
+  - first:
+      213: 3695095583825305201
+    second: GGJ_Intro_Name_Sprite_3
+  - first:
+      213: 1253423731572346698
+    second: GGJ_Intro_Name_Sprite_4
+  - first:
+      213: -4262291040976626344
+    second: GGJ_Intro_Name_Sprite_5
+  - first:
+      213: -7792326329464206508
+    second: GGJ_Intro_Name_Sprite_6
+  - first:
+      213: -4608034076372943312
+    second: GGJ_Intro_Name_Sprite_7
+  - first:
+      213: 4558385310081508842
+    second: GGJ_Intro_Name_Sprite_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GGJ_Intro_Name_Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 672
+        width: 1997
+        height: 338
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b595616682fccce0800000000000000
+      internalID: -1383464326535998023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_Intro_Name_Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 724
+        width: 269
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f9dacd0fbf855930800000000000000
+      internalID: 4131366283915221497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_Intro_Name_Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 724
+        width: 269
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f11d4ee0560a99170800000000000000
+      internalID: 8185750153624604959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_Intro_Name_Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 724
+        width: 269
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e95052bdd974330800000000000000
+      internalID: 3695095583825305201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_Intro_Name_Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 724
+        width: 180
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4f0a613e3e056110800000000000000
+      internalID: 1253423731572346698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_Intro_Name_Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 946
+        width: 91
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85d124d71ec49d4c0800000000000000
+      internalID: -4262291040976626344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_Intro_Name_Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 724
+        width: 180
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45bcc562d781cd390800000000000000
+      internalID: -7792326329464206508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_Intro_Name_Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 680
+        width: 269
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03e35e40c69fc00c0800000000000000
+      internalID: -4608034076372943312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_Intro_Name_Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 724
+        width: 91
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae564c4c943a24f30800000000000000
+      internalID: 4558385310081508842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0dcee24408424104b86a553c2e131e87
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GGJ_Intro_Name_Sprite_0: -1383464326535998023
+      GGJ_Intro_Name_Sprite_1: 4131366283915221497
+      GGJ_Intro_Name_Sprite_2: 8185750153624604959
+      GGJ_Intro_Name_Sprite_3: 3695095583825305201
+      GGJ_Intro_Name_Sprite_4: 1253423731572346698
+      GGJ_Intro_Name_Sprite_5: -4262291040976626344
+      GGJ_Intro_Name_Sprite_6: -7792326329464206508
+      GGJ_Intro_Name_Sprite_7: -4608034076372943312
+      GGJ_Intro_Name_Sprite_8: 4558385310081508842
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
