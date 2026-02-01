@@ -47,6 +47,8 @@ public class PlayerController : MonoBehaviour
 
     IEnumerator FadeInImage(Image img, float duration)
     {
+        
+        
         Color c = img.color;
         c.a = 0f;
         img.color = c;
@@ -63,6 +65,9 @@ public class PlayerController : MonoBehaviour
 
         //fade in colors of mask
         img.color = new Color(c.r, c.g, c.b, 1f);
+        LoadNextScene();
+        //Loads in the mask image (removed)
+        //Loads the nextScene
     }
 
 
@@ -79,11 +84,22 @@ public class PlayerController : MonoBehaviour
             Color c = Mask.color;
             c.a = 1f;               //makes image fully visible
             Mask.color = c;
-         
-           StartCoroutine(FadeInImage(Mask, 1.5f)); // 1.5 seconds Fade in mask
-           
 
+            WaitingTime(30f);
+            //Waits 2 seconds before continuing
+            StartCoroutine(FadeInImage(Mask, 1.5f)); // 1.5 seconds Fade in mask
+            
+            
         }
+    }
+
+    IEnumerator WaitingTime(float duration)
+    {
+        yield return new WaitForSecondsRealtime(duration);
+    }
+    public void LoadNextScene()
+    {
+        FindFirstObjectByType<SceneFading>().FadeOut("EndingScenes");
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -92,7 +108,9 @@ public class PlayerController : MonoBehaviour
         {
             count++;
             SetCountText();
-            other.gameObject.SetActive(false);
+            other.GetComponent<SpriteRenderer>().enabled = false;
+            other.GetComponent<BoxCollider2D>().enabled = false;
+            //disables the spriterenderer and the boxcollider so that the scripts attached to each piece still run
         }
     }
 
