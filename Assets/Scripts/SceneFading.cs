@@ -32,7 +32,7 @@ public class SceneFading : MonoBehaviour
 
     public void FadeOut(string sceneName)
     {
-        waitTime(20f);
+        
         StartCoroutine(FadeRoutine(1f, sceneName));
         
     }
@@ -68,8 +68,5 @@ public class SceneFading : MonoBehaviour
     {
         
     }
-    private IEnumerator waitTime(float duration)
-    {
-        yield return new WaitForSeconds(duration);
-    }
+    
 }

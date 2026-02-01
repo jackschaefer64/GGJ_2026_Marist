@@ -85,18 +85,15 @@ public class PlayerController : MonoBehaviour
             c.a = 1f;               //makes image fully visible
             Mask.color = c;
 
-            WaitingTime(30f);
-            //Waits 2 seconds before continuing
+            
+            
             StartCoroutine(FadeInImage(Mask, 1.5f)); // 1.5 seconds Fade in mask
             
             
         }
     }
 
-    IEnumerator WaitingTime(float duration)
-    {
-        yield return new WaitForSecondsRealtime(duration);
-    }
+    
     public void LoadNextScene()
     {
         FindFirstObjectByType<SceneFading>().FadeOut("EndingScenes");

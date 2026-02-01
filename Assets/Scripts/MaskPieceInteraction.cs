@@ -5,7 +5,7 @@ using System.Collections;
 public class MaskPieceInteraction : MonoBehaviour 
 {
 
-    public Image maskImage;
+    public Image maskPieceImage;
     public bool playerProx;
 
     void Start()
@@ -17,8 +17,8 @@ public class MaskPieceInteraction : MonoBehaviour
     {
         if (playerProx)
         {
-            maskImage.enabled = true;
-            StartCoroutine(FadeInImage(maskImage, 1.5f));
+            maskPieceImage.enabled = true;
+            StartCoroutine(FadeInImage(maskPieceImage, 1.5f));
         }
         //If the player is in the zone, enable the image. 
         //Then runs a method to fade in the image
